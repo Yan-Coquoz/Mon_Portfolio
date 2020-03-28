@@ -57,6 +57,7 @@ table {
 body{
     background-color: var(--fondEcran);
     font-family: var(--policebaskerville), serif;
+   
 }
 
 h1, footer h1, nav a{
@@ -473,6 +474,11 @@ aside p em{
  /* De 0px à 800px */
  @media all and (max-width: 800px){
 
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
     #Mon-Logo{
         display:none;
     }
@@ -491,14 +497,17 @@ aside p em{
    #menuAccueil, ul{
         margin-top: 15px; 
         flex-direction: row;
+
    }
-   /* aside{
-        display:flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+   aside{
         width: auto;
-        height: auto; 
-    }*/
+        height: auto;
+        margin:0;
+        padding:0 15px ;
+    }
+    #t_image p{
+    font-size:0.8rem ;
+    }
 
    /* Annimation */
    .slider{
