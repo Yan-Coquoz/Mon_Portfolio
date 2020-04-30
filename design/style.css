@@ -24,6 +24,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/* Pour tous ce qui est tactile */
+label, input[type="button"], input[type="submit"], input[type="image"], button, a {
+    cursor: pointer;
+}
+
 body {
 	line-height: 1;
 }
@@ -477,6 +482,9 @@ aside p em{
     body{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     #Mon-Logo{
@@ -499,7 +507,7 @@ aside p em{
         flex-direction: row;
 
    }
-   aside{
+   aside{ 
         width: auto;
         height: auto;
         margin:0;
