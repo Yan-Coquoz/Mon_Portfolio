@@ -2,5 +2,5 @@
 **Mon premier portfolio**
 - HTML5 
 - CSS3 
-- JS
+- JS (heure)
 
