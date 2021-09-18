@@ -275,8 +275,8 @@ iframe {
 }
 
 #aside__image {
-  width: 65px;
-  height: 90px;
+  width: 80%;
+  height: 20%;
   text-align: center;
   border: 2px rgba(83, 75, 75, 0.753) solid;
   border-radius: 7px;
