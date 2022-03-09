@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="My first portfolio">
+  <meta name="description" content="Mon premier portfolio en HTML et CSS">
   <script async src="https://www.google-analytics.com/analytics.js">
   </script>
   <!-- le lien css -->
@@ -27,21 +27,21 @@
 
 <body>
   <header>
-    <section id="entete">
+    <section id="entete" role="banner">
       <div id="entete__titres">
         <div id="Mon-Logo">
           <a href="index.html"><img id="logo" src=" design/LOGO_VERSION_2.png" alt="Logo arbre des langages" /></a>
         </div>
         <div id="Titre">
           <h1 id="titre__h1"><strong>Mon portfolio</strong></h1>
-          <h2 id="titre__h2">
+          <h2 id="titre__h2" lang="en-En">
             Graphic Designer, Illustrator and
             <strong>Front-end Developper</strong>
           </h2>
         </div>
       </div>
 
-      <nav id="menuAccueil">
+      <nav id="menuAccueil" role="navigation">
         <ul id="menuAccueil__ul">
           <li><a href="#" title="Accueil">Accueil </a></li>
           <li><a href="#aside_container" title="Présentation">Présentation</a></li>
@@ -52,7 +52,7 @@
       </nav>
     </section>
   </header>
-  <section id="Projets">
+  <section id="Projets" role="main">
     <div id="titre-projets">
       <h2>Projets</h2>
       <h3>La Nature... et l'Homme</h3>
@@ -124,7 +124,7 @@
   </section>
 
   <!-- Aside -->
-  <aside id="aside_container">
+  <aside id="aside_container" role="complementary">
     <h3 id="aside__title">Je me présente :</h3>
     <div id="aside__speech">
       <p class="aside__text">
@@ -150,20 +150,20 @@
     </div>
   </aside>
 
-  <footer>
+  <footer role="contentinfo">
     <section id="Contacts">
       <h2>Contacts</h2>
       <div id="reseau">
         <h3>Réseaux</h3>
         <div id="conteneur">
-          <div id="reseaux" aria-labelledby="Contacts">
+          <div id="reseaux">
             <a class="res" href="https://twitter.com/Yan_Coquoz" target="_blank" rel="noopener noreferrer"
-              aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
             <a class="res" href="https://www.linkedin.com/in/yan-coquoz-41081b194" rel="noopener noreferrer"
-              aria-label="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-            <a class="res" href="https://github.com/Yan-Coquoz" aria-label="Gmail"><i class="fab fa-github"
+              title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a class="res" href="https://github.com/Yan-Coquoz" title="Gmail"><i class="fab fa-github"
                 aria-hidden="true" rel="noopener"></i></a>
-            <a class="res" href="tel:+33615999614" aria-label="what's App"><i class="fab fa-whatsapp"
+            <a class="res" href="tel:+33615999614" title="what's App"><i class="fab fa-whatsapp"
                 aria-hidden="true"></i></a>
           </div>
         </div>

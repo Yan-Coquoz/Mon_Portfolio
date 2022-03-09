@@ -312,11 +312,13 @@ h3 {
   flex-direction: column;
   justify-content: flex-end;
   align-content: flex-end;
+
+  align-items: center;
 }
 
 #reseaux {
   height: 90px;
-  width: 250px;
+  width: 300px;
   display: flex;
   align-items: center;
   flex-direction: row;
